@@ -1,0 +1,33 @@
+{
+  "name": "rentacarservice",
+  "version": "1.0.0",
+  "description": "Rest API service was created by using Node.js, Express.js and MongoDB in RentaCar service. Tested with Postman.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cevheryilmaz/RentaCarService.git"
+  },
+  "keywords": [
+    "RentaCar",
+    "Service",
+    "API",
+    "RestAPI",
+    "Node.js"
+  ],
+  "author": "Cevher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cevheryilmaz/RentaCarService/issues"
+  },
+  "homepage": "https://github.com/cevheryilmaz/RentaCarService#readme",
+  "dependencies": {
+    "bson": "^4.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.0",
+    "node-modules": "^1.0.1"
+  }
+}
